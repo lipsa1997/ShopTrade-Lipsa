@@ -37,18 +37,6 @@ html {
     color: white !important;
     font-weight: 600 !important;
 }
-/* .logo{
-    width: 11%;
-    background: url(../images/sprites.svg);
-    position: relative;
-    height: 50px;
-    background-position: 379px 572px;
-    bottom: 10px;
-} */
-/* .navbar-nav{
-    width: 100%;
-    height: 40px;
-} */
 .top-bar{
 
    height: 30px;
@@ -96,12 +84,6 @@ html {
 }
 p { 
     font-family: "Times New Roman", Times, serif;
-}
-.text-center{
-    /* font-family: "Times New Roman", Times, serif;
-    font-size: 1.62rem !important;
-    max-width: 32rem; */
-    
 }
 
 .developer {
@@ -238,7 +220,7 @@ li {
 
 .banner-bg {
     background-color: #ffcf10;
-    background-image: url(../images/illo-hero-small.svg);
+    background-image: url("https://www.dropbox.com/s/yfshl8kxviktcrv/illo-hero-small.svg?raw=1");
     background-repeat: no-repeat;
     background-position: top center;
     padding-top: 128px;
@@ -249,7 +231,7 @@ li {
 @media only screen and (min-width: 768px) {
     .banner-bg {
         background-color: #ffcf10;
-        background-image: url(../images/image1.svg);
+        background-image: url("https://www.dropbox.com/s/yb45bl3j9erkmc3/image1.svg?raw=1");
         background-repeat: no-repeat;
         background-position: top center;   
     }
@@ -546,7 +528,7 @@ li {
 }
 .logo{
     width: 25px;
-    background: url(../images/download-icon.png);
+    background: url("https://www.dropbox.com/s/acge0tf4k196dma/download-icon.png?raw=1");
     position: relative;
     height: 30px;
     background-position: top center;
@@ -559,7 +541,7 @@ li {
         width: 188px;
         height: 50px;
         bottom: 3px;
-        background: url(../images/sprites.svg);
+        background: url("https://www.dropbox.com/s/t4828fzkxx699jz/sprites.svg?raw=1");
         margin-left: 15px;
     }
 }
@@ -677,15 +659,15 @@ li {
 }
 
 .unlock-siloed-heading {
-    font-family: 'Roboto Slab Bold',serif;
-    font-weight: 700;
+    font-family:RobotoCondensed-Bold;
+   font-weight: 700;
     color: #fff;
     display: inline-block;
 }
 
 .unlock-siloed-sub-heading {
     font-size: 17px;
-    font-family: sans-serif;
+    font-family: Roboto-Regular;
     color: #fff;
 }
 .learn-more-button {
@@ -701,7 +683,7 @@ li {
     align-items: flex-end;
 }
 .card-heading {
-    font-family: 'Roboto Slab Bold',serif;
+    font-family: RobotoCondensed-Regular;
     font-weight: 700;
     color: #27348b !important;
 }
@@ -713,6 +695,7 @@ li {
 .card-sub-heading {
     margin-bottom: 0;
     font-size: 15px;
+    font-family: Roboto-Regular;
 }
 .card-each-wrapper {
     background-color: #fff;
@@ -739,6 +722,7 @@ li {
 .card-description{
     display: flex;
     justify-content: left;
+    font-family: Roboto-Regular;
 }
 @media (min-width: 768px){
     #unlock-siloed-knowledge {
@@ -876,6 +860,7 @@ x
     font-weight: 400;
     margin: 24px 0 0;
     padding: 0 15px;
+    font-family: Roboto-Regular;
 }
 .create-account-btn {
     background-color: #f48024;
